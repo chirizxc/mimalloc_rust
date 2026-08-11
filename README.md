@@ -27,7 +27,7 @@ own benchmarks.
 
 To enable secure mode, put in `Cargo.toml`:
 
-```ini
+```toml
 [dependencies]
 mimalloc = { version = "*", features = ["secure"] }
 ```
@@ -37,7 +37,7 @@ mimalloc = { version = "*", features = ["secure"] }
 By default this library uses mimalloc `v3`.
 To use MiMalloc `v2`, write in `Cargo.toml`:
 
-```ini
+```toml
 [dependencies]
 mimalloc = { version = "*", features = ["v2"] }
 ```
